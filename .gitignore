@@ -5,8 +5,12 @@ nimcache/
 *.o
 *.a
 
-# Test output
+# Test output and binaries
 tests/*.pdf
+tests/test_minimal
+tests/test_fonts
+tests/test_text
+tests/test_*[!.]*[!nim]
 
 # IDE
 .vscode/
