@@ -1,7 +1,7 @@
 # Package
 version       = "0.1.0"
 author        = "akvilary"
-description   = "PDF generation library following the PHP FPDF API"
+description   = "Pure Nim PDF generation library — create PDF documents with text, fonts, graphics, and images. Inspired by the PHP FPDF API."
 license       = "MIT"
 srcDir        = "src"
 
