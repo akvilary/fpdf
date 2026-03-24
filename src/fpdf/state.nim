@@ -91,7 +91,7 @@ proc newFpdf*(orientation = orPortrait, unit = utMillimeter,
   result.zoomFactor = 0
   result.layoutMode = lmDefault
   result.metadata = initTable[string, string]()
-  result.metadata["Producer"] = "NimFPDF 0.1"
+  result.metadata["Producer"] = "FPDF 0.1"
 
   # Compression
   result.compress = true
