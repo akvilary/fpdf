@@ -1,0 +1,15 @@
+# Nim build artifacts
+nimcache/
+*.exe
+*.out
+*.o
+*.a
+
+# Test output
+tests/*.pdf
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
